@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var mostrar=function(texto){
     document.write(texto);
     document.write("<hr>");    
@@ -20,7 +19,44 @@ var masa = parseInt(prompt("Cuál es tu masa?"));
 var planeta = prompt("¿Qué planeta te gustaría saber tu peso?");
 
 
-=======
+if(planeta == "mercurio"){
+var peso = mercurio*masa;
+    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
+}
+
+if(planeta == "venus"){
+var peso = venus*masa;
+    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
+}
+
+if(planeta == "tierra"){
+var peso = tierra*masa;
+    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
+}
+if(planeta == "marte"){
+var peso = marte*masa;
+    mostra("Hola" + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+}
+
+if(planeta == "jupiter"){
+var peso = jupiter*masa;
+     mostra("Hola" + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+}
+
+if(planeta == "saturno"){
+var peso = saturno*masa;
+    mostra("Hola" + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+}
+
+if(planeta == "urano"){
+var peso = urano*masa;
+     mostra("Hola" +nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+}
+
+if(planeta == "neptuno"){
+var peso = nepturno*masa;
+     mostra("Hola" +nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+}
 
 if(planeta == "mercurio"){
 var peso = mercurio*masa;
@@ -36,4 +72,3 @@ if(planeta == "tierra"){
 var peso = tierra*masa;
     mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
 }
->>>>>>> 93edbde34f573a03ee7ca81a7f6c4546fa7e3f80
