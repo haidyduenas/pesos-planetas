@@ -1,8 +1,3 @@
-var mostrar=function(texto){
-    document.write(texto);
-    document.write("<hr>");    
-}
-
 var mercurio=3;
 var venus=8;
 var tierra=10;
@@ -21,54 +16,39 @@ var planeta = prompt("¿Qué planeta te gustaría saber tu peso?");
 
 if(planeta == "mercurio"){
 var peso = mercurio*masa;
-    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
+    alert("Hola " + nombre + ". Tu peso es  " + peso + " kilogramos en " + planeta);
 }
 
 if(planeta == "venus"){
 var peso = venus*masa;
-    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
+    alert("Hola " + nombre + ". Tu peso es  " + peso + " kilogramos en " + planeta);
 }
 
 if(planeta == "tierra"){
 var peso = tierra*masa;
-    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
+    alert("Hola " + nombre + ". Tu peso es  " + peso + " kilogramos en " + planeta);
 }
 if(planeta == "marte"){
 var peso = marte*masa;
-    mostra("Hola" + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+    alert("Hola " + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
 }
 
 if(planeta == "jupiter"){
 var peso = jupiter*masa;
-     mostra("Hola" + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+     alert("Hola " + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
 }
 
 if(planeta == "saturno"){
 var peso = saturno*masa;
-    mostra("Hola" + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+    alert("Hola " + nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
 }
 
 if(planeta == "urano"){
 var peso = urano*masa;
-     mostra("Hola" +nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
+     mostra("Hola " +nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
 }
 
 if(planeta == "neptuno"){
 var peso = nepturno*masa;
-     mostra("Hola" +nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
-}
-
-if(planeta == "mercurio"){
-var peso = mercurio*masa;
-    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
-}
-
-if(planeta == "venus"){
-var peso = venus*masa;
-    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
-}
-
-if(planeta == "tierra"){
-var peso = tierra*masa;
-    mostrar("Hola" + nombre + ". Tu peso es  " + peso + " Klg en " + planeta);
+     mostra("Hola " +nombre + ". Tu peso es " + peso + " kilogramos en " + planeta);
 }
